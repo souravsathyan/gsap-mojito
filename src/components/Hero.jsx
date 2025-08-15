@@ -20,6 +20,7 @@ const Hero = () => {
       stagger: 0.04,
       duration: 1.2,
       ease: "expo.out",
+      opacity: 0,
     });
 
     gsap.from(paraSplit.lines, {
